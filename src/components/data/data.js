@@ -1,17 +1,13 @@
 import heroimg from "../../assests/hero.png";
-
 import hightlightimg from "../../assests/hightlightimg.png";
 import sneakershoe from "../../assests/sneaker.png";
-
 import clip from "../../assests/video/clip.mp4";
 import vcover1 from "../../assests/video/vcover1.png";
 import vcover2 from "../../assests/video/vcover2.png";
 import vcover3 from "../../assests/video/vcover3.png";
-
 import psale1 from "../../assests/nike-air-red.png";
 import psale2 from "../../assests/nike-adapt-bb.png";
 import psale3 from "../../assests/nike-adapt-bb-smart.png";
-
 import product1 from "../../assests/product1.png";
 import product2 from "../../assests/product2.png";
 import product3 from "../../assests/product3.png";
@@ -24,13 +20,11 @@ import product9 from "../../assests/product9.png";
 import product10 from "../../assests/product10.png";
 import product11 from "../../assests/product11.png";
 import product12 from "../../assests/product12.png";
-
 import facebook from "../../assests/facebook.svg";
 import instagram from "../../assests/instagram.svg";
 import twitter from "../../assests/twitter.svg";
 import youtube from "../../assests/youtube.svg";
 import messenger from "../../assests/messenger.svg";
-
 const heroapi = {
   title: "Play With Electric Nike",
   subtitle: "Adapt 2.0 Sneakers",
@@ -50,7 +44,7 @@ const heroapi = {
   ],
 };
 
-const popularsales = {
+const popularSales = {
   title: "Popular Sales",
   items: [
     {
@@ -107,7 +101,7 @@ const sneaker = {
   img: sneakershoe,
 };
 
-const toprateslaes = {
+const topRate = {
   title: "Top Rated Sales",
   items: [
     {
@@ -375,12 +369,4 @@ const footerAPI = {
   ],
 };
 
-export {
-  heroapi,
-  footerAPI,
-  story,
-  sneaker,
-  highlight,
-  toprateslaes,
-  popularsales,
-};
+export { heroapi, footerAPI, story, sneaker, highlight, topRate, popularSales };
